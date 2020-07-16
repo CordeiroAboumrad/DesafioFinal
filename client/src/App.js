@@ -124,7 +124,6 @@ export default function App() {
 
 
   async function editTransaction() {
-    await set
     console.log('Foi!');
 
 
@@ -150,6 +149,8 @@ export default function App() {
     console.log(existingTransaction);
     console.log(id);
     TransactionDataService.editTransaction(id, existingTransaction);
+    
+    
 
   };
 

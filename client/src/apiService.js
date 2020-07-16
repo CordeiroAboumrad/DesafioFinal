@@ -16,7 +16,7 @@ const createTransaction = (body) => {
 }
 
 const editTransaction = (id, body) => {
-  return http.put(`/${id}`);
+  return http.put(`/${id}`, body);
 }
 
 

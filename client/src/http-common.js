@@ -4,8 +4,8 @@ import axios from 'axios';
 
 // Define a URL base da origem para consumo do serviço
 export default axios.create({
-    // baseURL: 'http://localhost:3001/api/transaction',
-    baseURL: process.env.BACK_END,
+    baseURL: 'http://localhost:3001/api/transaction',
+    // baseURL: process.env.BACK_END,
     headers: {
       'Content-type': 'application/json',
     },
